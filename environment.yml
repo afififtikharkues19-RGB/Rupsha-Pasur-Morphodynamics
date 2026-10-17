@@ -1,0 +1,14 @@
+name: rupsha-pasur-morphodynamics
+
+channels:
+  - conda-forge
+
+dependencies:
+  - python=3.12
+  - numpy
+  - pandas
+  - matplotlib
+  - pymc>=6,<7
+  - arviz
+  - pytensor
+  - pip

@@ -1,0 +1,7 @@
+readme_link,target_exists,status
+data/README.md,True,PASS
+docs/methodology.md,True,PASS
+docs/results_summary.md,True,PASS
+figures/main_curvature_migration_results.png,True,PASS
+figures/twoB_spatial_consistency.png,True,PASS
+results/,True,PASS

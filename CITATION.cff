@@ -1,0 +1,20 @@
+cff-version: 1.2.0
+message: "If you use this repository, please cite it using the metadata below."
+title: "Rupsha–Pasur Morphodynamics: Spatially lagged curvature–migration coupling in a tidal river corridor"
+type: software
+authors:
+  - family-names: Iftikhar
+    given-names: Afif
+version: 0.1.0
+keywords:
+  - "river morphodynamics"
+  - "remote sensing"
+  - "Landsat"
+  - "channel migration"
+  - "channel curvature"
+  - "Bayesian modeling"
+  - "distributed-lag model"
+  - "tidal rivers"
+  - "Bangladesh"
+abstract: >
+  Reproducible analysis of spatially lagged curvature–migration coupling along the tidal Rupsha–Pasur river corridor in southwest Bangladesh using multi-decadal Landsat-derived channel geometry and hierarchical Bayesian distributed-lag modeling.

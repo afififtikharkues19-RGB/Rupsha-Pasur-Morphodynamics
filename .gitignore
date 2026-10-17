@@ -1,0 +1,48 @@
+# Python
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+
+# Environments
+.env
+.venv/
+venv/
+env/
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Large geospatial data
+*.tif
+*.tiff
+*.img
+*.vrt
+*.hdf
+*.h5
+
+# Large posterior files
+*.nc
+*.netcdf
+*.pkl
+*.pickle
+
+# Large satellite archives
+*.tar
+*.tar.gz
+*.zip
+
+# Temporary files
+tmp/
+temp/
+scratch/
+
+# Internal project material
+metadata_internal/
+qc/
+interim/
+raw/

@@ -1,0 +1,23 @@
+check,item,status
+REQUIRED_FILE,README.md,PASS
+REQUIRED_FILE,environment.yml,PASS
+REQUIRED_FILE,CITATION.cff,PASS
+REQUIRED_FILE,LICENSE.md,PASS
+REQUIRED_FILE,LICENSES\MIT.txt,PASS
+REQUIRED_FILE,LICENSES\CC-BY-4.0.md,PASS
+REQUIRED_FILE,src\bayesian_model.py,PASS
+REQUIRED_FILE,src\results_figures.py,PASS
+REQUIRED_FILE,data\inferential_model_input.csv.gz,PASS
+REQUIRED_FILE,results\global_distributed_lag_results.csv,PASS
+REQUIRED_FILE,results\block_specific_lag_results.csv,PASS
+REQUIRED_FILE,results\spatial_block_locations.csv,PASS
+REQUIRED_FILE,figures\main_curvature_migration_results.png,PASS
+REQUIRED_FILE,figures\twoB_spatial_consistency.png,PASS
+NO_PRIVATE_WINDOWS_PATHS,public text files,PASS
+NO_INTERNAL_STEP_IDS,public text files,PASS
+NO_FILES_OVER_10MB,repository,PASS
+NO_FORBIDDEN_LARGE_RESEARCH_FILES,repository,PASS
+README_LINKS,relative README links,PASS
+CLAIM_SAFETY,public text files,PASS
+CITATION_CFF_STRUCTURE,CITATION.cff,PASS
+ENVIRONMENT_STRUCTURE,environment.yml,PASS
