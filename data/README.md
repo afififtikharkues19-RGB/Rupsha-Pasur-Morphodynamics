@@ -45,7 +45,7 @@ without duplicating large remotely available satellite datasets.
 
 ## Public inferential model input
 
-`inferential_model_input.csv.gz` contains the minimal standardized design matrix required to construct the published Bayesian model.
+`inferential_model_input.csv.gz` contains the minimal standardized design matrix required to construct the reported Bayesian model.
 
 It contains:
 

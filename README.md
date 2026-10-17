@@ -18,7 +18,7 @@ The analysis evaluates curvature at six prespecified upstream positions:
 
 `0.0B · 0.5B · 1.0B · 1.5B · 2.0B · 2.5B`
 
-where **B** is the local channel width at the response station.
+where **B** is the start-state local channel width at the response station.
 
 ---
 
@@ -41,7 +41,7 @@ where **B** is the local channel width at the response station.
 The project integrates:
 
 - topology-aware Landsat channel extraction;
-- fixed-axis bank and centerline geometry;
+- fixed-axis satellite-observed outer water–land boundary-proxy and centerline geometry;
 - channel-width estimation;
 - signed channel curvature;
 - width-normalized upstream spatial lags;
@@ -52,7 +52,7 @@ The project integrates:
 
 The lag framework is **spatial rather than temporal**. For a response location at position `s`, curvature at lag `L` is evaluated upstream at:
 
-`target position = s − L × local channel width`
+`target position = s − L × start-state local channel width`
 
 More methodological detail is provided in [`docs/methodology.md`](docs/methodology.md).
 
@@ -124,7 +124,7 @@ It includes:
 - temporal-period effects; and
 - block-period effects.
 
-The robust Student-t likelihood accommodates the strongly heavy-tailed migration response.
+The robust Student-t likelihood accommodates very heavy-tailed residual behavior.
 
 Two residual NUTS divergences remained among 8,000 retained posterior draws. Dedicated sensitivity analyses showed negligible influence on the reported corridor-wide and block-specific scientific quantities.
 
@@ -146,8 +146,15 @@ The results should not be interpreted as showing that curvature alone causes mig
 Rupsha-Pasur-Morphodynamics/
 ├── README.md
 ├── PROJECT_STATUS.md
+├── CITATION.cff
+├── environment.yml
+├── LICENSE.md
+├── LICENSES/
+│   ├── MIT.txt
+│   └── CC-BY-4.0.md
 ├── data/
-│   └── README.md
+│   ├── README.md
+│   └── inferential_model_input.csv.gz
 ├── docs/
 │   ├── methodology.md
 │   ├── results_summary.md
@@ -164,7 +171,9 @@ Rupsha-Pasur-Morphodynamics/
 │   ├── spatial_block_locations.csv
 │   └── twoB_evidence_summary.csv
 └── src/
-    └── README.md
+    ├── README.md
+    ├── bayesian_model.py
+    └── results_figures.py
 ```
 
 Large Landsat scenes, raster intermediates, Monte Carlo realizations, and full posterior files are intentionally excluded from the public repository.
