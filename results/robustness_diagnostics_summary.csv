@@ -1,0 +1,15 @@
+diagnostic,result,interpretation
+Maximum pairwise predictor Pearson correlation,0.296,Weak linear dependence among the six curvature predictors
+Maximum pairwise predictor Spearman correlation,0.571,Moderate rank continuity between neighboring spatial offsets
+Maximum absolute posterior correlation among global curvature coefficients,0.301,No evidence of severe posterior coefficient trade-off
+2B Pearson correlation - all observations,-0.0492,Negative descriptive association
+2B Pearson correlation - nonzero extracted displacements,-0.0724,Negative association strengthened after exact-zero observations were excluded
+2B Spearman correlation - all observations,-0.0621,Negative descriptive rank association
+2B Spearman correlation - nonzero extracted displacements,-0.0920,Negative rank association strengthened among nonzero observations
+Residual correlation at ~0.12 km,0.2719,Moderate short-range residual dependence
+Residual correlation at ~1.20 km,0.0902,Weak residual dependence
+Residual correlation at ~2.40 km,0.0263,Residual dependence approximately negligible
+Residual correlation at ~4.80 km,-0.0036,Residual correlation approximately zero
+Posterior predictive central response distribution,Not reproduced,Continuous Student-t likelihood did not reproduce extraction-level exact-zero mass or full central response structure
+Posterior predictive P99 absolute response,Inside 95% posterior predictive interval,Extreme upper tail reproduced reasonably
+Spatial thinning through ~2.40 km,2B negative across all tested phases,Negative 2B descriptive relationship persisted after strong reduction in station density
